@@ -1,0 +1,12 @@
+{
+  "name": "lang",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:heng": "node compiler/compiler.js examples/bounce.heng",
+    "build:examples": "node seng/compiler.js examples/bounce2.seng && node ceng/compiler.js examples/bounce.ceng && node compiler/compiler.js examples/bounce.heng"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
