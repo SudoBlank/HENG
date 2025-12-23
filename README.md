@@ -17,5 +17,9 @@ Commands are defined in `package.json`:
 
 - `npm run build:heng` — build `examples/bounce.heng` into `examples/bounce.html`
 - `npm run build:examples` — compile the demo example files and produce `examples/bounce.html`
+- `npm run examples:programmatic` — run the programmatic example that compiles `examples/bounce.heng`
+- `npm test` — run a simple compile test that verifies the main compiler
+
+Documentation is available in the `documentation/` folder — start with `documentation/USAGE.md` for complete usage and developer notes.
 
 If anything else is missing, tell me which files you expect and I will restore them next.
