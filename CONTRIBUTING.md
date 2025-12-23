@@ -1,4 +1,5 @@
 # Contributing
+This is a solo project made by SudoBlank on github.
 
 Thanks for your interest in contributing to this toy language project! The repository is simple, but the following guidelines will keep contributions smooth.
 
@@ -28,5 +29,3 @@ npm test
 - Keep commits small and focused.
 - Add a short explanation of functional changes in the PR description.
 - If changing language semantics, include at least one example showing old vs new behavior.
-
-If you'd like, I can add a small test harness or CI workflow (GitHub Actions) to run `npm test` on each PR. Just tell me and I'll add it.
